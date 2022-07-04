@@ -15,39 +15,48 @@
   </head>
 
   <body>
-    <div class="container-fluid bg-black">
-      <div class="container">
-        <header class="container bg-dark sticky-top mb-2">
-          <nav class="navbar navbar-expand-sm navbar-dark">
+    <div class="container-fluid bg-black" id="mainBox">
+    
+        <header class="container d-flex justify-content-between bg-light bg-opacity-75  mb-2">
+          <nav
+            class="navbar navbar-expand-sm  navbar-dark"
+            aria-label="Second navbar example"
+          >
             <div class="container">
-              <a class="navbar-brand" href="#"
-                ><img src="/pages/css/logo_lior2.png" alt="" id="logoIcon"
-              /></a>
               <button
-                class="navbar-toggler collapsed"
+                class="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#navbarsExample01"
-                aria-controls="navbarsExample01"
+                data-bs-target="#navbarsExample02"
+                aria-controls="navbarsExample02"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
                 <span class="navbar-toggler-icon"></span>
               </button>
 
-              <div class="navbar-collapse collapse" id="navbarsExample01">
-                <ul class="navbar-nav me-auto mb-2">
+              <div class="collapse navbar-collapse" id="navbarsExample02">
+                <ul class="navbar-nav me-auto ">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Store</a>
+                    <a class="nav-link text-primary " aria-current="page" href="#"
+                      >Home</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">User Data</a>
+                    <a class="nav-link" href="pages/html pages/store.html"
+                      >Store</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">New Item</a>
+                    <a class="nav-link" href="/pages/html pages/userData.html"
+                      >Users</a
+                    >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="#">Add New</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Contact Us</a>
@@ -56,11 +65,14 @@
               </div>
             </div>
           </nav>
+          <a class="navbar-brand align-self-center" href="#"
+            ><img src="pages/css/logo_lior2.png" alt="" id="logoIcon"
+          /></a>
         </header>
-      </div>
+     
       <main class="container">
-        <div class="p-md-5 mb-4 text-white rounded bg-dark">
-          <div class="sketchfab-embed-wrapper p-2 d-flex">
+        <div class="p-md-5 mb-4 text-white rounded bg-light bg-opacity-50">
+          <div class="sketchfab-embed-wrapper p-2 d-xl-flex">
             <iframe
               title="Apple iPhone 13 Pro Max"
               frameborder="0"
@@ -72,23 +84,23 @@
               execution-while-out-of-viewport
               execution-while-not-rendered
               web-share
-              class="rounded"
+              class="rounded col-sm-12 img-fluid"
               src="https://sketchfab.com/models/8defc5c64a8249ba934f5e3d74abccde/embed"
             >
             </iframe>
-            <p class="p-2 col-4 border-3">
+            <p class="p-2 col-xl-4 col-sm-12 border-3">
               A dramatically more powerful camera system. A display so
               responsive, every interaction feels new again.
-              <a href="https://www.apple.com/iphone-13-pro/"
-              target="_blank">click for more info..</a
+              <a href="https://www.apple.com/iphone-13-pro/" target="_blank"
+                >click for more info..</a
               >
             </p>
           </div>
         </div>
         <div
-          class="p-md-5 p-2 mb-4 text-white rounded bg-dark d-flex justify-content-between"
+          class="p-md-5 p-2 mb-4 rounded bg-light bg-opacity-50 d-flex justify-content-between"
         >
-          <div class="sketchfab-embed-wrapper d-flex">
+          <div class="sketchfab-embed-wrapper p-2 d-xl-flex">
             <iframe
               title="Element3D - Samsung Galaxy S22 Ultra"
               frameborder="0"
@@ -101,23 +113,32 @@
               execution-while-not-rendered
               web-share
               src="https://sketchfab.com/models/ea4120f42e764fafb2af3adbb7d06dbd/embed"
-              class="img-fluid rounded"
+              class="rounded col-sm-12 img-fluid"
             >
             </iframe>
-            <p class="p-2 col-4 border-3">
+            <p class="p-2 col-xl-4 col-sm-12 border-3">
               A dramatically more powerful camera system. A display so
               responsive, every interaction feels new again.
               <a
                 href="https://www.samsung.com/il/smartphones/galaxy-s22-ultra/buy/?cid=il_paid_ppc_gos_f1h22b0_laun_sem22productsseries_text_s21s22exacteng_bap_il_he_exact_cw_hqlo_cross_mx_launch_smart_kew_galaxy%20s22%20ultra&utm_campaign=sem22productsseries&utm_medium=paid_ppc&utm_source=gos&utm_content=il_f1h22b0_laun_sem22productsseries_text_s21s22exacteng_bap_il_he_exact_cw_hqlo_crossmx_launch_smart_kew_galaxy%20s22%20ultra&gclid=CjwKCAjw_ISWBhBkEiwAdqxb9iy5tQ4DBaHMMua3zGK_bxMOp2o4YP288Ok1h6ubzL4DaK-RSp4jOBoCWwsQAvD_BwE&gclsrc=aw.ds"
-                target="_blank">click for more info</a
+                target="_blank"
+                >click for more info</a
               >
             </p>
           </div>
         </div>
+        <div class="p-md-5 mb-4 text-white rounded bg-light bg-opacity-75">
+          <div class="row p-3 g-2">
+            <div class="col-sm-3 col-md-12">
+              
+
+            </div>
+          </div>
+        </div>
       </main>
 
-      <div>
-        <footer class="container bg-dark align-bottom pt-3">
+      <div class="container">
+        <footer class="container bg-light align-bottom pt-2 bg-opacity-50">
           <div class="col text-center d-flex justify-content-around">
             <a href="https://github.com/Lior2911" target="_blank">
               <img src="/pages/css/icons/gitHub.jpeg" alt="" id="gitIcon"

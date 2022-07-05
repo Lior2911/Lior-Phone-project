@@ -1,6 +1,6 @@
 
 #logoIcon{
-  width: 10vw;
+  width: 8vw;
   border-radius: 50%;
 
 
@@ -25,4 +25,8 @@
   border-right: solid;
   border-color: rgba(176, 197, 244, 0.463);
  
+}
+.imgtrip{
+  height: 7vh;
+  
 }

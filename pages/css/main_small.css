@@ -11,6 +11,7 @@
 #mainBox{
   background-image: url(/pages/appImages/wall3.jpg);
   background-size: cover;
+  max-width: 800px;
 
 
 }

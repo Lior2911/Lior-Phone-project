@@ -10,7 +10,7 @@ async function getFromApi() {
      res.forEach(element => {
       
       phoneCard.innerHTML += `<div class='d-flex  text-light card rounded bg-dark bg-opacity-50'>
-      <div class='card-img'><img class='img-card col-md-4 col-sm-12'src='/pages/appImages/iphone.gif'</div>
+      <div><img class='img-card col-md-4 col-sm-12' src='/pages/appImages/iphone.gif'</div>
       <div class='card-text'>
       <div>price :${element.price}</div>
       <div>isAvailable :${element.isAvailable}</div>

@@ -1,17 +1,13 @@
 
-#logoIcon{
-  width: 10vw;
-  border-radius: 50%;
- 
-}
+
 #gitIcon{
   width: 5vw;
   border-radius: 50%;
 }
-/* #linkdinIcon{
+#linkdinIcon{
   width: 5vw;
   border-radius: 50%;
-} */
+}
 #mainBox{
   background-image: url(/pages/appImages/wall3.jpg);
   background-size: cover;

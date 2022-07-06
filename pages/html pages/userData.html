@@ -73,14 +73,26 @@
         <h3 class="text-center text-primary bg-black bg-gradient">
           Store
         </h3>
-        <div
-          class="p-md-5 p-2 mb-4 row row-cols-sm-12 row-cols-md-4 rounded bg-dark bg-opacity-50 d-flex justify-content-between"
-        >
-      <div id="phoneCard">
+        <div class="table-responsive">
+      <table class="table bg-dark text-light bg-opacity-50">
+      <thead>
+        <tr>
+
+          <th scope="col">age</th>
+          <th scope="col">first Name</th>
+          <th scope="col">last name</th>
+          <th scope="col">email</th>
+          <th scope="col">phone</th>
+      
+        </tr>
+      </thead>
+      <tbody id="userData">
   
-      </div>
+
+      </tbody>
   
-        </div>
+    </table>
+  </div>
       </main>
   
       <footer class="container pt-2 bg-dark sticky-bottom rounded mt-2 bg-opacity-50">
@@ -97,5 +109,6 @@
         </div>
       </footer>
     </div>
+    <script src="../javascript/userData.js"></script>
   </body>
 </html>

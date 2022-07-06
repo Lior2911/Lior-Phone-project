@@ -1,15 +1,14 @@
-#gitIcon{
+.gitIcon{
   width: 5vw;
   border-radius: 50%;
 }
-#linkdinIcon{
+.linkdinIcon{
   width: 5vw;
   border-radius: 50%;
 }
 #phoneBox{
-  background-image: url(/pages/appImages/wallPaper2.jfif);
-background-size:cover;
-max-width: 800px;
+background-image: url(/pages/appImages/wall3.jpg);
+background-size: cover;
  
   
 }

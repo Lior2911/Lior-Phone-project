@@ -6,3 +6,15 @@
   width: 5vw;
   border-radius: 50%;
 }
+#aboutBox{
+background-image: url(/pages/appImages/wall3.jpg);
+background-size: cover;
+ 
+  
+}
+.nav-link{
+  font-size: small;
+  border-right: solid;
+  border-color: rgba(176, 197, 244, 0.463);
+ 
+}

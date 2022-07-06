@@ -6,8 +6,9 @@
   width: 5vw;
   border-radius: 50%;
 }
-#mainBox{
-  background-image: url(/pages/appImages/wall3.jpg);
-  background-size: cover;
-  max-width: 800px;
+#phoneBox{
+  background-image: url(/pages/appImages/wallPaper2.jfif);
+background-size:cover;
+ 
+  
 }

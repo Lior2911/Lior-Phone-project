@@ -1,9 +1,11 @@
 const WEBAPI = "https://my-json-server.typicode.com/Jeck99/fake-server/devices";
 const MY_IMG =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_B7JYHlbfR2P2nV5eK7z5oD59A3rhbF1jag&usqp=CAU";
+  const loadingGif = "/pages/appImages/loadingGif.gif"
 const phoneCard_ = document.getElementById("phoneCard");
 async function getFromApi() {
   try {
+    loadingGif.innerHTML = `${loadingGif}`
     return await fetch(WEBAPI)
       .then((response) => response.json())
       .then((res) =>
@@ -27,6 +29,7 @@ async function getFromApi() {
   } catch (error) {
     alert("error");
   } finally {
+    loadingGif.innerHTML = " "
   }
 }
 getFromApi();

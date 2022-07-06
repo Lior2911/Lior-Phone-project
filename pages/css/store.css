@@ -9,6 +9,7 @@
 #phoneBox{
   background-image: url(/pages/appImages/wallPaper2.jfif);
 background-size:cover;
+max-width: 800px;
  
   
 }

@@ -11,11 +11,11 @@ async function getFromApi() {
       .then((res) =>
         res.forEach((element) => {
           phoneCard_.innerHTML += `<div class='col-xs-3 border-2 p-2 col-sm-4
-           bg-dark bg-opacity mb-1 text-light'>
+           bg-secondery bg-opacity-50 mb-1 text-dark'>
       
      <img class="w-100 img-thumbnail"  src='${MY_IMG}'/>
   
-      <div class='fs-6'>price : ${element.price}</div>
+      <div>price : ${element.price}</div>
       <div>isAvailable :${element.isAvailable}</div>
       <div>createdAt :${element.createdAt}</div>
       <div>color :${element.color}</div>

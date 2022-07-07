@@ -6,11 +6,12 @@
   width: 5vw;
   border-radius: 50%;
 }
-#phoneBox{
-background-image: url(/pages/appImages/wall3.jpg);
-background-size: cover;
- 
-  
+#StoreBox{
+  background-image: url(/pages/appImages/wallpapers/wall5.jpg);
+  background-size: cover;
+
+
+
 }
 .nav-link{
   font-size: small;

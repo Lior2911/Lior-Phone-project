@@ -1,0 +1,26 @@
+
+
+.gitIcon{
+  width: 5vw;
+  border-radius: 50%;
+}
+.linkdinIcon{
+  width: 5vw;
+  border-radius: 50%;
+}
+#DataBox{
+  background-image: url(/pages/appImages/wallpapers/wallpaper4.jpg);
+  background-size: cover;
+  max-width: 800px;
+
+
+}
+.nav-link{
+  font-size: small;
+  border-right: solid;
+  border-color: rgba(176, 197, 244, 0.463);
+ 
+}
+.logoIcon1{
+  
+}

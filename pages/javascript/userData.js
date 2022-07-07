@@ -17,11 +17,11 @@ function printToTable() {
     res.forEach(element => {
       myTable.innerHTML += `
       <tr>
-      <td class='border-2'>${element.age}</td>
-      <td class='border-2'>${element.name.first}</td>
-      <td class='border-2'>${element.name.last}</td>
-      <td class='border-2'>${element.email}</td>
-      <td class='border-2'>${element.phone}</td>
+      <td class='border-dark border-2'>${element.age}</td>
+      <td class='border-dark border-2'>${element.name.first}</td>
+      <td class='border-dark border-2'>${element.name.last}</td>
+      <td class='border-dark border-2'>${element.email}</td>
+      <td class='border-dark border-2'>${element.phone}</td>
       </tr>
       `
       

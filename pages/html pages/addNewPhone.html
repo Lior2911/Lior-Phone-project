@@ -13,148 +13,136 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../css/addNew.css" />
-    <title>Document</title>
+    <title>Donate</title>
   </head>
   <body>
-    <div class="container-fluid" id="DonateBox">
+    <div class="container-fluid bg-secondary bg-opacity-25" id="DonateBox">
       <header
         class="container d-flex justify-content-between rounded-bottom bg-secondary bg-opacity-25 mb-2"
       >
-        <nav
-          class="navbar navbar-expand-sm navbar-light"
-          aria-label="Second navbar example"
+      <nav
+      class="navbar navbar-expand-sm navbar-light"
+      aria-label="Second navbar example"
+    >
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample02"
+          aria-controls="navbarsExample02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <div class="container">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarsExample02"
-              aria-controls="navbarsExample02"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarsExample02">
-              <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="/index.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/pages/html pages/store.html"
-                    >Store</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/pages/html pages/userData.html"
-                    >Users</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link text"
-                    href="/pages/html pages/addNewPhone.html"
-                    >Donatetion</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text" href="/pages/html pages/aboutUs.html"
-                    >About us</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link text"
-                    href="/pages/html pages/contactUs.html"
-                    >Contact Us</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <a class="navbar-brand align-self-center" href="/index.html"
-          ><img
-            width="66vw"
-            style="border-radius: 50%"
-            src="/pages/appImages/logo/logo_lior2.png"
-            alt=""
-            id="logoIcon1"
-        /></a>
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/html pages/store.html"
+                >Store</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/pages/html pages/userData.html"
+                >Users</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text" href="/pages/html pages/addNewPhone.html">Add New</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text" href="/pages/html pages/aboutUs.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text" href="/pages/html pages/contactUs.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <a class="navbar-brand align-self-center" href="/index.html"
+      ><img width="66vw" style="border-radius: 50%;" src="/pages/appImages/logo/logo_lior2.png" alt="" id="logoIcon1"
+    /></a>
       </header>
 
       <div class="container bg-secondary bg-opacity-25">
         <h4 class="text-center">doante your old phone</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
-          distinctio blanditiis tenetur labore beatae rerum natus expedita?
-          Provident, expedita? Minus tempora obcaecati beatae quas eos, officiis
-          ipsa vitae illo earum quaerat, odit velit ex nihil voluptas
-          consequatur culpa accusantium amet facilis. Sed praesentium debitis
-          asperiores doloribus perspiciatis alias mollitia ut.
+     <h5>how to donate?</h5>
+     <ul>
+      <li>you can come to our store and give to one of our employee.</li>
+      <li>  or you can fill the form below and one of our delivery person will come to take your old phone.</li>
+     </ul>
+    
         </p>
       </div>
       <div class="container bg-secondary bg-opacity-25">
       <form class="row justify-content-center">
         <div class="row justify-content-center">
+          <h4 class="display-5">Phone donation</h4>
           <div class="col-md-3">
-            <label for="firstname" class="form-label"> </label>
+            <label for="IdFromUser" class="form-label"> </label>
             <input
               type="text"
-              class="form-control text-center"
-              id="firstname"
-              placeholder="First Name"
+              class="form-control "
+              id="idInput"
+              placeholder="phone Id"
               required
             />
           </div>
-          <div class="col-sm col-md-3">
+          <div class="col-md-3">
             <label for="lastname" class="form-label"> </label>
             <input
               type="text"
-              class="form-control text-center"
-              id="lastname"
-              placeholder="Last Name"
+              class="form-control "
+              id="createdAtInput"
+              placeholder="created in year?"
               required
             />
           </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <label for="email" class="form-label"> </label>
+          <div class=" col-md-3">
+            <label for="color" class="form-label"> </label>
             <input
-              type="email"
-              class="form-control text-center"
-              id="email"
-              placeholder=" Email@gmail.com"
+              type="text"
+              class="form-control "
+              id="phoneColorInput"
+              placeholder="phone color"
               required
             />
           </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <label for="phoneNumber" class="form-label"> </label>
+          <div class="col-md-3">
+            <label for="ram" class="form-label"> </label>
             <input
-              type="tel"
-              class="form-control text-center"
-              id="phoneNumber"
-              placeholder="Phone Number"
+              type="text"
+              class="form-control "
+              id="ramInput"
+              placeholder="ram"
+              required
+            />
+          </div>
+          <div class="col-md-3">
+            <label for="brand" class="form-label"> </label>
+            <input
+              type="text"
+              class="form-control "
+              id="brandInput"
+              placeholder="barnd"
               required
             />
           </div>
         </div>
-        <div class="row mt-5 mb-5 text-center">
-          <div class="col-md-6">
-            <button type="submit" class="btn btn-dark">donate</button>
-          </div>
+        <div class=" col-md-3 text-center mt-1 mb-1">
+          <button onclick="postToAPI()">send</button>
         </div>
       </form>
+      
     </div>
+
       <footer
         class="container pt-2 bg-secondary sticky-bottom rounded mt-2 bg-opacity-25"
       >
@@ -175,5 +163,6 @@
         </div>
       </footer>
     </div>
+    <script src="../pages/javascript/addNewPhone.js"></script>
   </body>
 </html>

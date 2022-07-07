@@ -5,7 +5,7 @@ async function getUserList() {
       response.json()
     )
   } catch (error) {
-    console.log("error")
+    alert("error")
   } finally {
   }
 }

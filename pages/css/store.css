@@ -6,12 +6,9 @@
   width: 5vw;
   border-radius: 50%;
 }
-#StoreBox{
+body{
   background-image: url(/pages/appImages/wallpapers/wall5.jpg);
   background-size: cover;
-
-
-
 }
 .nav-link{
   font-size: small;

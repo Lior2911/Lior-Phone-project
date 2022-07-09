@@ -2,13 +2,9 @@ const WEBAPI = "https://my-json-server.typicode.com/Jeck99/fake-server/devices";
 const MY_IMG =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_B7JYHlbfR2P2nV5eK7z5oD59A3rhbF1jag&usqp=CAU";
 const loading = document.getElementById("loadingGif");
-
 const phoneCard_ = document.getElementById("phoneCard");
 
-getFromApi();
-function deletePhone() {
- 
-}
+function deletePhone() {}
 
 async function getFromApi() {
   try {
@@ -41,3 +37,4 @@ async function getFromApi() {
   }
 }
 
+getFromApi();

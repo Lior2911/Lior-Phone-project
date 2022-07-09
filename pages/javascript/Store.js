@@ -28,7 +28,7 @@ async function getFromApi() {
         })
       );
   } catch (error) {
-    alert("error");
+    alert("somthing wrong,please try later");
   } finally {
     loading.innerHTML = " "
   }

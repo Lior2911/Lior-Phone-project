@@ -1,12 +1,15 @@
+const loadGif = document.getElementById("loadingImg")
 async function getUserList() {
   let userAPI = "https://my-json-server.typicode.com/Jeck99/fake-server/users";
+  loadGif.innerHTML = " <img src='../appImages/loadingGif.gif' alt=''>"
   try {
     return await fetch(userAPI).then(response => 
       response.json()
     )
   } catch (error) {
-    alert("error")
+    alert("somthing wrong,please refresh or wait")
   } finally {
+    loadGif.innerHTML = " "
   }
 }
 

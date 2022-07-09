@@ -18,9 +18,11 @@ async function postToAPI(){
     })
   }
   catch(error){
-    alert(error)
+    alert("we didnt get your data please send again")
   }
   finally{
+    alert("thank you for your donation !")
+
 
   }
 }

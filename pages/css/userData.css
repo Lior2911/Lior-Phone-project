@@ -9,7 +9,7 @@
   border-radius: 50%;
 }
 body{
-  background-image: url(/pages/appImages/wallpapers/wall5.jpg);
+  background-image: url(../appImages/wallpapers/wallpaper1.jfif);
   background-size: cover;
 }
 .nav-link{

@@ -3,6 +3,23 @@ const MY_IMG =
   "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_B7JYHlbfR2P2nV5eK7z5oD59A3rhbF1jag&usqp=CAU";
 const loading = document.getElementById("loadingGif");
 const phoneCard_ = document.getElementById("phoneCard");
+let phonesImageArray = [
+  "1phone.png",
+  "2phone.png",
+  "3phone.png",
+  "4phone.png",
+  "5phone.png",
+  "6phone.png",
+  "7phone.png",
+  "8phone.png",
+  "9phone.png",
+  "10phone.png",
+  "11phone.png",
+  "12phone.png",
+  "13phone.png",
+  "14phone.png",
+  "15phone.png",
+]
 
 function deletePhone() {}
 
@@ -12,11 +29,11 @@ async function getFromApi() {
     return await fetch(WEBAPI)
       .then((response) => response.json())
       .then((res) =>
-        res.forEach((element) => {
+        res.forEach((element,i) => {
           phoneCard_.innerHTML += `<div id='phone'class='col-xs-3 border-2 p-2 col-sm-4
            bg-secondery bg-opacity-50 mb-1 text-dark'>
       
-     <img class="w-100 img-thumbnail"  src='${MY_IMG}'/>
+     <img class="w-100 img-thumbnail"  src='../appImages/phone/${phonesImageArray[i]}'/>
   
       <div>price : ${element.price}</div>
       <div>isAvailable :${element.isAvailable}</div>

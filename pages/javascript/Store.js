@@ -18,7 +18,7 @@ let phonesImageArray = [
   "12phone.png",
   "13phone.png",
   "14phone.png",
-  "15phone.png",
+  // "15phone.png",
 ]
 
 function deletePhone() {}
@@ -35,7 +35,8 @@ async function getFromApi() {
       
      <img class="w-100 img-thumbnail"  src='../appImages/phone/${phonesImageArray[i]}'/>
   
-      <div>price : ${element.price}</div>
+      <div>price : ${element.price}</div>>
+      
       <div>isAvailable :${element.isAvailable}</div>
       <div>createdAt :${element.createdAt}</div>
       <div>color :${element.color}</div>
